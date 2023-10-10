@@ -8,8 +8,14 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "scripts": {
+    "dev": "./index.ts --hot"
+  },
   "dependencies": {
     "@techstark/opencv-js": "^4.8.0-release.6",
-    "@tensorflow/tfjs": "^4.11.0"
+    "@tensorflow/tfjs": "^4.11.0",
+    "canvas": "^2.11.2",
+    "jimp": "^0.22.10",
+    "jsdom": "^22.1.0"
   }
 }

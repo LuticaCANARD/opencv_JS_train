@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+require('./src/scripts/openCV.js')
